@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Website</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Weather Website</h1>
+
+    <img src="weather1.gif" alt="Weather Image" width="300" height="300">
+
+    <p>Use this website to find out the weather in any city!</p>
+
+    <form id="weatherForm">
+        <label for="city">Enter the city:</label>
+        <br><br>
+
+        <input
+            type="text"
+            id="city"
+            name="city"
+            placeholder="Enter U.S. city name"
+            required
+        >
+
+        <br><br>
+        <button type="submit">Search Weather</button>
+    </form>
+
+    <div id="weatherResult"></div>
+
+    <script src="script.js"></script>
+</body>
+</html>
